@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owlcarousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="bg"></div>
+        <div class="jumbotron owl-carousel owl-theme">
+            <div class="jumbotron_item">
+                <a data-fancybox="gallery" href="img/九柱/水柱.png">
+                    <div class="img img-position-left" style="background-image: url(img/九柱/水柱.png);"></div>
+                </a>
+            </div>
+            <div class="jumbotron_item">
+                <a data-fancybox="gallery" href="img/九柱/蟲柱.png">
+                    <div class="img img-position-right" style="background-image: url(img/九柱/蟲柱.png);"></div>
+                </a>
+            </div>
+            <div class="jumbotron_item">
+                <a data-fancybox="gallery" href="img/九柱/炎柱.png">
+                    <div class="img  img-position-right" style="background-image: url(img/九柱/炎柱.png);"></div>
+                </a>
+            </div>
+            <div class="jumbotron_item">
+                <a data-fancybox="gallery" href="img/九柱/音柱.png">
+                    <div class="img img-position-right" style="background-image: url(img/九柱/音柱.png);"></div>
+                </a>
+            </div>
+            <div class="jumbotron_item">
+                <a data-fancybox="gallery" href="img/九柱/戀柱.png">
+                    <div class="img img-position-left" style="background-image: url(img/九柱/戀柱.png);"></div>
+                </a>
+            </div>
+            <div class="jumbotron_item">
+                <a data-fancybox="gallery" href="img/九柱/蛇柱.png">
+                    <div class="img img-position-left" style="background-image: url(img/九柱/蛇柱.png);"></div>
+                </a>
+            </div>
+            <div class="jumbotron_item">
+                <a data-fancybox="gallery" href="img/九柱/霞柱.png">
+                    <div class="img img-position-right" style="background-image: url(img/九柱/霞柱.png);"></div>
+                </a>
+            </div>
+            <div class="jumbotron_item">
+                <a data-fancybox="gallery" href="img/九柱/風柱.png">
+                    <div class="img img-position-right" style="background-image: url(img/九柱/風柱.png);"></div>
+                </a>
+            </div>
+            <div class="jumbotron_item">
+                <a data-fancybox="gallery" href="img/九柱/岩柱.png">
+                    <div class="img img-position-right" style="background-image: url(img/九柱/岩柱.png);"></div>
+                </a>
+            </div>
+        </div>
+        <div class="title-img"></div>
+    </div>
+</body>
+<!-- js -->
+<script src="js/jquery.js"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 20,
+            nav: true,
+            item: 3,
+            navText: [],
+            autoplay: true,
+            autoSpeed: 500,
+            smartSpeed: 500
+        })
+    });
+</script>
+
+</html>
